@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="450.0" y="987.0">service.AutoServlet</node>
+    <node x="449.0" y="558.0">factory.dao.Idao</node>
+    <node x="0.0" y="779.0">factory.dao.Order_dao</node>
+    <node x="482.0" y="0.0">factory.entity.Client</node>
+    <node x="711.0" y="0.0">factory.entity.Employee</node>
+    <node x="0.0" y="0.0">factory.entity.Automobile</node>
+    <node x="0.0" y="1239.0">factory.CharacterEncodingFilter</node>
+    <node x="148.625" y="602.0">factory.DBConn</node>
+    <node x="391.0" y="779.0">factory.dao.Auto_dao</node>
+    <node x="0.0" y="987.0">service.ManufacturerServlet</node>
+    <node x="179.0" y="779.0">factory.dao.Manufacturer_dao</node>
+    <node x="1037.0" y="558.0">service.OrderServlet</node>
+    <node x="799.0" y="558.0">factory.entity.Manufacturer</node>
+    <node x="238.0" y="0.0">factory.entity.Order</node>
+    <node x="870.0" y="987.0">service.ClientServlet</node>
+    <node x="595.0" y="779.0">factory.dao.Client_dao</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factory.dao.Auto_dao" target="factory.dao.Idao">
+      <point x="46.0" y="-81.5" />
+      <point x="16.0" y="70.5" />
+    </edge>
+    <edge source="factory.dao.Auto_dao" target="factory.DBConn">
+      <point x="-46.0" y="-81.5" />
+      <point x="437.0" y="739.0" />
+      <point x="279.25" y="739.0" />
+      <point x="26.125" y="26.5" />
+    </edge>
+    <edge source="factory.dao.Manufacturer_dao" target="factory.dao.Idao">
+      <point x="48.0" y="-81.5" />
+      <point x="323.0" y="759.0" />
+      <point x="497.0" y="759.0" />
+      <point x="-16.0" y="70.5" />
+    </edge>
+    <edge source="factory.dao.Client_dao" target="factory.DBConn">
+      <point x="-39.75" y="-81.5" />
+      <point x="634.75" y="729.0" />
+      <point x="331.5" y="729.0" />
+      <point x="78.375" y="26.5" />
+    </edge>
+    <edge source="factory.dao.Order_dao" target="factory.dao.Idao">
+      <point x="39.75" y="-81.5" />
+      <point x="119.25" y="749.0" />
+      <point x="465.0" y="749.0" />
+      <point x="-48.0" y="70.5" />
+    </edge>
+    <edge source="factory.dao.Order_dao" target="factory.DBConn">
+      <point x="-39.75" y="-81.5" />
+      <point x="39.75" y="739.0" />
+      <point x="174.75" y="739.0" />
+      <point x="-78.375" y="26.5" />
+    </edge>
+    <edge source="factory.dao.Client_dao" target="factory.dao.Idao">
+      <point x="39.75" y="-81.5" />
+      <point x="714.25" y="719.0" />
+      <point x="561.0" y="719.0" />
+      <point x="48.0" y="70.5" />
+    </edge>
+    <edge source="factory.dao.Manufacturer_dao" target="factory.DBConn">
+      <point x="-48.0" y="-81.5" />
+      <point x="-26.125" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8941002949852506" x="670.9691682520847" y="775.7733790531173" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

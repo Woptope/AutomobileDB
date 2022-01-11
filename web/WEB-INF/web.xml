@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>ManufacturerServlet</servlet-name>
+        <servlet-class>service.ManufacturerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ManufacturerServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AutoServlet</servlet-name>
+        <servlet-class>service.AutoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AutoServlet</servlet-name>
+        <url-pattern>/auto/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ClientServlet</servlet-name>
+        <servlet-class>service.ClientServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ClientServlet</servlet-name>
+        <url-pattern>/client/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet</servlet-name>
+        <servlet-class>service.EmployeeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet</servlet-name>
+        <url-pattern>/employee/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderServlet</servlet-name>
+        <servlet-class>service.OrderServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/order/*</url-pattern>
+    </servlet-mapping>
+</web-app>
